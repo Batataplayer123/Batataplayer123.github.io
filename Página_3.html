@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link rel="stylesheet" href="Página_1.css">
+</head>
+<body>
+    <header>
+        <h1>Front-End Framework - 2AV</h1>
+        <nav>
+            <a href="index.html">Voltar</a>
+            <button onclick="Dark()">Modo Escuro</button>
+            <div>
+                <button onclick="alterarFonte(2)">Tamanho +</button>
+                <button onclick="alterarFonte(-2)">Tamanho -</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2 id="clock"></h2>
+        <h1>Formulário</h1>
+        <form>
+            <label  for="nome"><b>Nome:</b></label>
+            <input type="text" id="nome" name="nome" required>
+        
+            <label for="email"><b>E-mail:</b></label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" class="submit" value="Cadastrar">
+        </form>
+        
+        <h2>Dê sua Opinião</h2>
+        
+        <form>
+            <label for="feedback"><b>Sua Opinião:</b></label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+            <br>
+            <input type="submit" class="submit" value="Enviar Opinião">
+        </form>
+        <h2>Contato</h2>
+        <h3>(XX) XXXXX-XXXX</h3>
+    </main>
+    <footer>
+        <h2>Front-End Framework - 2AV</h2>
+    </footer>
+    <script src="Página_1.js"></script>
+</body>
+</html>

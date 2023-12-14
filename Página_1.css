@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    cursor: default;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
+header{
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+article{
+    margin-top: 50px;
+}
+div{
+    text-align: center;
+}
+.paragrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin-right: 80px;
+}
+img{
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: transform 3s;
+    
+}
+img:hover{
+    transform: rotate(1024deg);
+}
+h1, h2, h3{
+    margin-top: 0;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .4s;
+}
+a:hover{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+/* PÁGINA 2 - GALERIA DE IMAGENS */
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.gallery img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.gallery p{
+    margin-right: 0;
+}
+
+/* PÁGINA 3 - FORMULÁRIO */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+label {
+    margin-bottom: 8px;
+}
+.submit {
+    background-color: #1b0064;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.submit:hover {
+    transform: scale(1.2);
+}
